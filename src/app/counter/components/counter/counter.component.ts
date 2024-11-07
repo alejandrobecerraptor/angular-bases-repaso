@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-counter',
   template: `
-    <h1>Counter: {{ counter }}</h1>
+    <h1 class="text-primary">Counter: {{ counter }}</h1>
     <button (click)="increaseBy()">+1</button>
     <button (click)="decreaseBy()">-1</button>
     <button (click)="reset()">Reset</button>
